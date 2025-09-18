@@ -1,5 +1,8 @@
 
-@media (min-width: 400px) {
+@media (min-width: 50em) {
+    HomeSection {
+        column-count: 2;
+    }
 }
 
 body {
