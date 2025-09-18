@@ -1,8 +1,5 @@
 
-@media all and (orientation: landscape) {
-}
-
-@media all and (orientation: portrait) {
+@media (min-width: 400px) {
 }
 
 body {
