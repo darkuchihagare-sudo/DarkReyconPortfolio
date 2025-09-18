@@ -1,0 +1,351 @@
+body {
+    background-color: #0D0F14;
+}
+
+* {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+#MyName {
+    text-align-last: left;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    font-size: 100px;
+}
+
+
+#NameBar {
+    color: deepskyblue;
+    width: 65px;
+    height: 7px;
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+#NameBarTwo {
+    color: #353d4b;
+    width: 80px;
+    height: 5px;
+    background-color: #353d4b;
+    position: absolute;
+    left: 250px;
+    top: 675px;
+    border-radius: 10px;
+}
+
+#EmailIcon {
+    position: absolute;
+    left: 250px;
+    top: 995px;
+}
+
+#GitHubIcon {
+    position: absolute;
+    left: 286px;
+    top: 1000px;
+}
+
+#YoutubeIcon {
+    position: absolute;
+    left: 310px;
+    top: 994px;
+}
+
+#HomeText1 {
+    position: absolute;
+    left: 250px;
+    top: 750px;
+    font-size: medium;
+    font-weight: 200;
+}
+
+#HomeText2 {
+    position: absolute;
+    left: 250px;
+    top: 340px;
+}
+
+#HomeTextOne {
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 680px;
+}
+
+#HomeTextSecond {
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+#Contact {
+    color: white;
+    text-align: right;
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+}
+
+
+#HomeTabLine {
+    border-radius: 25px;
+    position: absolute;
+    left: 70px;
+    top: 25px;
+    width: 8px;
+    height: 3px;
+    background-color: white;
+}
+
+#AboutMeLinkPosition {
+    position: absolute;
+    left: 250px;
+    top: 900px;
+    font-weight: 600;
+}
+
+#AboutMePage {
+    font-size: larger;
+    font-weight: 800;
+    position: absolute;
+    left: 150px;
+}
+
+
+
+#Stats2 {
+    position: absolute;
+    top: 1860px;
+    left: 850px;
+    width: 200px;
+}
+
+#Stats3 {
+    position: absolute;
+    top: 1860px;
+    left: 1255px;
+    width: 200px;
+}
+
+#PhylosophyText {
+    position: absolute;
+    left: 1200px;
+    top: 1250px;
+    width: 300px;
+    font-weight: 200;
+}
+
+#PhylosophyTitle {
+    position: absolute;
+    left: 1200px;
+    top: 1200px;
+    width: 300px;
+    font-weight: 800;
+}
+
+#PhylosophyLine {
+    position: absolute;
+    top: 1190px;
+    left: 1200px;
+    width: 60px;
+    height: 5px;
+    color: #353d4b;
+    background-color: #353d4b;
+    border-radius: 10px;
+}
+
+#BackHome {
+    position: absolute;
+    top: 1750px;
+    left: 150px;
+    width: 200px;
+}
+
+
+#ProjectsLine {
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+#hotkeys1 {
+    font-family: monospace;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    color: deepskyblue;
+    font-size: medium;
+}
+
+#ice_raid_title {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: larger;
+    width: 300px;
+    font-weight: 900;
+}
+
+#ice_raid_title2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+}
+
+#ice_raid_p {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 300px;
+}
+
+
+
+#hotkeys2 {
+    font-family: monospace;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    color: deepskyblue;
+    font-size: medium;
+}
+
+#walk_raid_title {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: larger;
+    width: 300px;
+    font-weight: 900;
+}
+
+#walk_raid_title2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+}
+
+#walk_raid_p {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 300px;
+}
+
+
+
+#hotkeys3 {
+    font-family: monospace;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    color: deepskyblue;
+    font-size: medium;
+}
+
+#auto_click_title {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: larger;
+    width: 300px;
+    font-weight: 900;
+}
+
+#auto_click_title2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+}
+
+#auto_click_p {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 300px;
+}
+
+#rectangle_4 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1750px;
+    left: 400px;
+    background-color: #353d4b;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#rectangle_5 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1750px;
+    left: 800px;
+    background-color: #353d4b;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#rectangle_6 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1750px;
+    left: 1200px;
+    background-color: #353d4b;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#AboutMeLine {
+    position: absolute;
+    top: 1430px;
+    left: 250px;
+    height: 5px;
+    width: 300px;
+    color: deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+#AboutMeBackground {
+    height: 350px;
+    width: 1900px;
+    background: linear-gradient(120deg, #1f242c 100%);
+    position: absolute;
+    top: 1900px;
+}
+
+#BetweenLine {
+    height: 50px;
+    width: 1910px;
+    position: absolute;
+    left: 0px;
+    top: 1074px;
+    color: #0D0F14;
+    border: 0;
+    background-image: linear-gradient(to top, #0D0F14, #1f242c);
+}
+
+#ProjectBack {
+    height: 400px;
+    width: 1900px;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    background: #1f242c;
+}

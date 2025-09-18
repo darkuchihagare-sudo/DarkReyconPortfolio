@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<title>Projects</title>
+<a href="portfolio.html" id="HomeTabProjects">Home</a>
+<a href="projects.html" id="ProjectsTabProjects">Projects</a>
+<div id="ProjectBack"></div>
+<div id="rectanglePro1">
+    <h4 id="ice_raid_title">Ice Raid Bot (Roblox Automation)</h4>
+    <p id="ice_raid_title2">Python script that automates the Ice Raid in One Fruit Simulator.</p>
+            <p id="ice_raid_p">Uses multithreading for smooth automation.</p>
+            <p id="hotkeys1">Hotkey controls (p to start, l to stop).</p>
+            <a href="https://github.com/darkuchihagare-sudo/ice_raid_OneFruitSim" target="_blank" style="width: 150px;
+            height: 50px;
+            background-color: deepskyblue;
+            position: absolute;
+            top: 300px;
+            left: 50px;
+            border-radius: 10px;"><h3 style="position: absolute; top: -2px; left: 15px; font-size: medium;">View on GitHub</h3></a>
+</div>
+
+<div id="rectanglePro2">
+    <h4 id="walk_raid_title">AutoWalking Script</h4>
+    <p id="walk_raid_title2">Simple Python script that automates forward movement in games.</p>
+            <p id="walk_raid_p">Uses pynput to listen for hotkeys.</p>
+            <p id="hotkeys2" style="position: absolute; top: 200px;">h to start/restart auto-walking. <br> w to walk manually. <br> i to stop the script.</p>
+            <a href="https://github.com/darkuchihagare-sudo/AutoWalking_script" target="_blank" style="width: 150px;
+            height: 50px;
+            background-color: deepskyblue;
+            position: absolute;
+            top: 300px;
+            left: 50px;
+            border-radius: 10px;"><h3 style="position: absolute; top: -2px; left: 15px; font-size: medium;">View on GitHub</h3></a>
+</div>
+
+<div id="rectanglePro3">
+    <h4 id="auto_click_title">Autoclicker Script</h4>
+    <p id="auto_click_title2">General-purpose Python autoclicker for games like One Fruit Simulator.</p>
+            <p id="auto_click_p">Optional AFK prevention feature (commented in code) to avoid timeouts by simulating key presses.</p>
+            <p id="hotkeys3" style="position: absolute; top: 230px;">h to start the script <br> i to stop the script.</p>
+            <a href="https://github.com/darkuchihagare-sudo/Autoclicker_One_Fruit_simulator" target="_blank" style="width: 150px;
+            height: 50px;
+            background-color: deepskyblue;
+            position: absolute;
+            top: 300px;
+            left: 50px;
+            border-radius: 10px;"><h3 style="position: absolute; top: -2px; left: 15px; font-size: medium;">View on GitHub</h3></a>
+</div>
+<style>
+
+#rectanglePro1 {
+    height: 400px;
+    width: 400px;
+    background-color: #353d4b;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#rectanglePro2 {
+    height: 400px;
+    width: 400px;
+    background-color: #353d4b;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#rectanglePro3 {
+    height: 400px;
+    width: 400px;
+    background-color: #353d4b;
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#HomeTabProjects {
+    color: grey;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#ProjectsTabProjects {
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 120px;
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.2s;
+}
+</style>
+<script>
+    const rectangleFirst = document.getElementById("rectanglePro1");
+    const rectangleSecond = document.getElementById("rectanglePro2");
+    const rectangleThird = document.getElementById("rectanglePro3");
+    const HomeProjects = document.getElementById("HomeTabProjects");
+    const ProjectsProjects = document.getElementById("ProjectsTabProjects");
+    
+    
+
+    rectangleFirst.addEventListener("mouseover", 
+    OneOver);
+    
+    rectangleFirst.addEventListener("mouseout", 
+    OneOut);
+
+    function OneOver() {
+        rectangleFirst.style.position = "absolute";
+        rectangleFirst.style.top = "480px";
+    }
+
+    function OneOut() {
+        rectangleFirst.style.position = "absolute";
+        rectangleFirst.style.top = "500px";
+    }
+    
+
+    rectangleSecond.addEventListener("mouseover", 
+    TwoOver);
+    
+    rectangleSecond.addEventListener("mouseout", 
+    TwoOut);
+
+    function TwoOver() {
+        rectangleSecond.style.position = "absolute";
+        rectangleSecond.style.top = "480px";
+    }
+
+    function TwoOut() {
+        rectangleSecond.style.position = "absolute";
+        rectangleSecond.style.top = "500px";
+    }
+
+
+    rectangleThird.addEventListener("mouseover", 
+    ThreeOver);
+    
+    rectangleThird.addEventListener("mouseout", 
+    ThreeOut);
+
+    function ThreeOver() {
+        rectangleThird.style.position = "absolute";
+        rectangleThird.style.top = "480px";
+    }
+
+    function ThreeOut() {
+        rectangleThird.style.position = "absolute";
+        rectangleThird.style.top = "500px";
+    }
+
+
+
+    HomeProjects.addEventListener("mouseover", 
+    HomeProjectsOver);
+    
+    HomeProjects.addEventListener("mouseout", 
+    HomeProjectsOut);
+
+    function HomeProjectsOver() {
+        HomeProjects.style.color = "white";
+    }
+
+    function HomeProjectsOut() {
+        HomeProjects.style.color = "grey";
+    }
+
+
+    ProjectsProjects.addEventListener("mouseover", 
+    ProjectsProjectsOver);
+    
+    ProjectsProjects.addEventListener("mouseout", 
+    ProjectsProjectsOut);
+
+    function ProjectsProjectsOver() {
+        ProjectsProjects.style.fontSize = "20px";
+    }
+
+    function ProjectsProjectsOut() {
+        ProjectsProjects.style.fontSize = "19px";
+    }
+    function resize(elem, percent) { elem.style.fontSize = percent; }
+</script>
+</head>
+<body>
+<div>
+    <h3 id="ProjectsTitle" style="position: absolute; top: 50px; left: 50px; font-size: 45px;">Projects:</h3>
+    <hr id="ProjectsLine">
+</div>
+</body>
+</head>
+</html>

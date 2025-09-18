@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="portfolio.css">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="sharingan-removebg-preview.ico">
+
+<div id="AboutMeBackground"></div>
+<div id="rectangle_4"><h3 style="position: absolute; top: 110px; left: 50px;"> 3+ automation projects<br> built in Python</p></div>
+<div id="rectangle_5"><h3 style="position: absolute; top: 110px; left: 50px;">Actively learning web hosting & HTTPS</h3></div>
+<div id="rectangle_6"><h3 style="position: absolute; top: 110px; left: 50px;">Hands-on approach to programming and cybersecurity</h3></div>
+<a href="projects.html" id="projectsTabColor">Projects</a>
+<a href="portfolio.html" id="HomeTab">Home</a>
+<style>
+
+html {
+    scroll-behavior: smooth;
+}
+
+#HomeSection {
+    height: 1100px;
+}
+
+#AboutMeSection {
+    height: 1100px;
+}
+
+body {
+    background-image: url(Boruto_upscale.png);
+    background-size: 1925px;
+    background-repeat: no-repeat;
+    background-position: 130px 0px;
+}
+
+#rectangle1 {
+  height: 30px;
+  width: 140px;
+  position: absolute;
+  top: 477px;
+  left: -7px;
+  background-color: #F1F1F1;
+  transform: rotate(8deg);
+}
+
+#rectangle2 {
+  height: 30px;
+  width: 140px;
+  position: absolute;
+  top: 510px;
+  left: -10px;
+  background-color: #0C0D0F;
+  transform: rotate(8deg);
+}
+
+#rectangle3 {
+    height: 300px;
+    width: 1900px;
+    background-color:#212730;
+    position: absolute;
+    top: 1900px;
+}
+
+#projectsTabColor {
+    color: grey;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 8px;
+    left: 120px;
+    transition: 0.3s;
+}
+
+#HomeTab {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    transition: 0.2s;
+}
+</style>
+
+<script>
+    const rectFour = document.getElementById("rectangle_4");
+    const rectFive = document.getElementById("rectangle_5");
+    const rectSix = document.getElementById("rectangle_6");
+    const projectTabCol = document.getElementById("projectsTabColor");
+    const HomeTabCol = document.getElementById("HomeTab");
+
+    rectFour.addEventListener("mouseover", 
+    rectFourOver);
+    
+    rectFour.addEventListener("mouseout", 
+    rectFourOut);
+
+    function rectFourOver() {
+        rectFour.style.backgroundColor = "deepskyblue";
+    }
+
+    function rectFourOut() {
+        rectFour.style.backgroundColor = "#353d4b";
+    }
+
+
+    rectFive.addEventListener("mouseover", 
+    rectFiveOver);
+    
+    rectFive.addEventListener("mouseout", 
+    rectFiveOut);
+
+    function rectFiveOver() {
+        rectFive.style.backgroundColor = "deepskyblue";
+    }
+
+    function rectFiveOut() {
+        rectFive.style.backgroundColor = "#353d4b";
+    }
+
+
+    rectSix.addEventListener("mouseover", 
+    rectSixOver);
+    
+    rectSix.addEventListener("mouseout", 
+    rectSixOut);
+
+    function rectSixOver() {
+        rectSix.style.backgroundColor = "deepskyblue";
+    }
+
+    function rectSixOut() {
+        rectSix.style.backgroundColor = "#353d4b";
+    }
+
+
+    projectTabCol.addEventListener("mouseover", 
+    projectTabColOver);
+    
+    projectTabCol.addEventListener("mouseout", 
+    projectTabColOut);
+
+    function projectTabColOver() {
+        projectTabCol.style.color = "white";
+    }
+
+    function projectTabColOut() {
+        projectTabCol.style.color = "grey";
+    }
+
+
+    HomeTabCol.addEventListener("mouseover", 
+    HomeTabColOver);
+    
+    HomeTabCol.addEventListener("mouseout", 
+    HomeTabColOut);
+
+    function HomeTabColOver() {
+        HomeTabCol.style.fontSize = "20px";
+    }
+
+    function HomeTabColOut() {
+        HomeTabCol.style.fontSize = "19px";
+    }
+</script>
+    
+</head>
+<body>
+<div id="rectangle1"></div>
+<div id="rectangle2"></div>
+<div class="main" id="HomeSection">
+        <hr id="HomeTabLine">
+        <h1 id="MyName">Dark <br> Reycon.</h1>
+        <script>
+        function resize(elem, percent) { elem.style.fontSize = percent; }
+        </script>
+        <hr id="NameBar">
+        <h3 id="HomeTextOne">Aspiring programmer &</h3>
+        <h3 id="HomeTextSecond">Automation Enthusiast</h3>
+        <div id="HomeText1">
+            <p>"I explore programming by building projects <br> that automate tasks,<br>
+                experiment with web hosting,<br>
+                and dive into how secure technologies<br> like HTTPS really work."<br>
+            </p>
+        </div>
+        <div id="AboutMeLinkPosition">
+            <a href="#AboutMeSection" style="text-decoration: none; color: deepskyblue; font-size: large;"> Go to "About me"</a>
+        </div>
+        <div id="EmailIcon">
+            <a href="mail.to:darkuchihagare@gmail.com" target="_blank">
+                <img src="gmail.ico" alt="Gmail" width="30px">
+            </a>
+        </div>
+        <div id="GitHubIcon">
+            <a href="https://github.com/darkuchihagare-sudo" target="_blank">
+                <img src="github.ico" alt="GitHub" width="20px">
+            </a>
+        </div>
+        <div id="YoutubeIcon">
+            <a href="https://www.youtube.com/@darkreycon1528" target="_blank">
+                <img src="youtube.ico" alt="youtube">
+            </a>
+        </div>
+        <hr id="NameBarTwo">
+</div>
+<div class="main" id="AboutMeSection">
+    <div>
+        <h3 id="AboutMePage" style="absolute; top: 1150px; left: 250px; font-size: 45px;">About Me</h3>
+        <p id="AboutMePara" style="position: absolute; top: 1250px; left: 250px; width: 550px; font-weight: 200;">I’m a self-taught programmer focused on automation, scripting, and web fundamentals.<br>
+        So far, Ive created Python-based projects that automate repetitive tasks, such as game raid scripts and utility tools.<br>
+        <br>
+        Right now, I am building and hosting my own website to gain a deeper understanding of web servers, HTTPS, and cybersecurity basics.<br>
+        <br>
+        </p>
+        <hr id="PhylosophyLine">
+        <h3 id="PhylosophyTitle">My philosophy is simple:</h3>
+        <p id="PhylosophyText">learn by doing, break things to understand them, and document the journey.</p>
+    </div>
+    <div id="HomeLink">
+        <a href="#HomeSection" style="text-decoration: overline; color: deepskyblue;"></a>
+    </div>
+    <hr id="AboutMeLine">
+    <hr id="BetweenLine">
+</body>
+</html>
